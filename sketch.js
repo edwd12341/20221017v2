@@ -12,10 +12,10 @@ function draw() {
      for(var i=0;i<(windowWidth/100);i++)
   { 
        stroke("#FFC857")
-  ellipse(50+(i*100),50+(j*100),mouseY/8,mouseY/4)  
+  ellipse(50+(i*100),50+(j*100),mouseY/4,mouseY/8)  
   rectMode(CENTER)
   stroke("#9EBC9E")
-  rect(50+(i*100),50+(j*100),mouseX/4,mouseX/2)
+  rect(50+(i*100),50+(j*100),mouseX/2,mouseX/4)
   stroke("#C45AB3")
   ellipse(100+(i*100),100+(j*100),mouseX/2,mouseX)
   }
